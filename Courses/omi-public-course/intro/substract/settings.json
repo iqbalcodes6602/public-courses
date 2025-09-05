@@ -1,0 +1,37 @@
+{
+  "Cases": [
+    {
+      "Cases": [
+        {
+          "Name": "simple",
+          "Weight": 100
+        }
+      ],
+      "Name": "simple"
+    },
+    {
+      "Cases": [
+        {
+          "Name": "test-1",
+          "Weight": 100
+        }
+      ],
+      "Name": "test-1"
+    }
+  ],
+  "Limits": {
+    "ExtraWallTime": "0s",
+    "MemoryLimit": 33554432,
+    "OutputLimit": 10240,
+    "OverallWallTimeLimit": "1m0s",
+    "TimeLimit": "1s"
+  },
+  "Slow": false,
+  "Validator": {
+    "Name": "token",
+    "Tolerance": 1e-09,
+    "GroupScorePolicy": "sum-if-not-zero"
+  },
+  "alias": "substract",
+  "title": "substract"
+}
